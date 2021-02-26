@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    allow:
+      - dependency-name: "black"
+        dependency-type: "direct"
+      - dependency-name: "mypy*"
+        dependency-type: "direct"

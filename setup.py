@@ -99,7 +99,7 @@ CONDITIONAL_REQUIREMENTS["lint"] = [
     "isort==5.7.0",
     "black==20.8b1",
     "flake8-comprehensions",
-    "flake8",
+    "flake8==3.8.0",
 ]
 
 CONDITIONAL_REQUIREMENTS["mypy"] = ["mypy==0.790", "mypy-zope==0.2.8"]
